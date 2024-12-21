@@ -12,3 +12,4 @@
 ## Options
 
 ## Autocommands
+- Autocommand to refresh the Neotree git status when closing the Lazyvim window
