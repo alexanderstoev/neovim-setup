@@ -8,6 +8,7 @@
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - adds git status indicators alongside the linenumbers
 - [which-key](https://github.com/folke/which-key.nvim) - shows available keys maps
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - status bar line 
+- [bufferline](https://github.com/akinsho/bufferline.nvim) - Adds a line at the top showing oped buffers (_files_)
 
 ## Options
 
