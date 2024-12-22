@@ -56,10 +56,21 @@ return {
 	config = function()
 
 		require("neo-tree").setup({
+			close_if_last_window = false,
+			filesystem = {
+				follow_current_file = {enabled = true}
+			},
+			winbar = {
+				enabled = true,  -- Enable the Neo-tree winbar
+				show_root = true,  -- Show the root directory in the winbar
+				content = "buffers",  -- Configure the content of the winbar (can be set to file name, filetype, etc.)
+			},
 			window={
 				mappings = {
 					["<space>"]=""
-				}
+				},
+				position = "left",
+				width = 40
 			}
 		})
 
