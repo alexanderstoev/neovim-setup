@@ -28,6 +28,7 @@ TODO
 - Autocommand to refresh the Neotree git status when closing the Lazyvim windowtes
 
 ## Keymaps
+### Buffers
 - `<leader>bn` - Switch to next buffer
 - `<leader>bp` - Switch to previous buffer
 - `<leader>bl` - Switch to last used buffer
