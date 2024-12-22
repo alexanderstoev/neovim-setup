@@ -20,5 +20,6 @@ vim.api.nvim_set_keymap('n', '<leader>bo', ':bufdo bd<CR>', { desc = "[B]uffer D
 -- Source file
 vim.api.nvim_set_keymap('n', '<leader>so', ':so %<CR>', { desc = "[S][O]urce current file", noremap = true, silent = true })
 
-
+-- QUIT
+vim.api.nvim_set_keymap('n', '<leader>qq', ':qa<CR>', { desc = "[Q]uit all", noremap = true, silent = true })
 
