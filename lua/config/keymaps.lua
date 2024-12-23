@@ -23,3 +23,7 @@ vim.api.nvim_set_keymap('n', '<leader>so', ':so %<CR>', { desc = "[S][O]urce cur
 -- QUIT
 vim.api.nvim_set_keymap('n', '<leader>qq', ':qa<CR>', { desc = "[Q]uit all", noremap = true, silent = true })
 
+-- Lazy 
+vim.api.nvim_set_keymap('n', '<leader>L', ':Lazy<CR>', { desc = "[L]azy", noremap = true, silent = true })
+
+
