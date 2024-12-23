@@ -35,5 +35,8 @@ TODO
 - `<leader>bd` - Delete the current buffer. Used a folky magic to prevent neo-tree from crapping it's pants
 - `<leader>bo` - Delete all other buffers
 
+### Lazy
+- `<leader>L` - Show Lazy
+
 ### Quit
 - `<leader>qq` - Quit nvim
