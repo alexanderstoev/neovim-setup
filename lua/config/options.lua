@@ -7,9 +7,6 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 -- Sync clipboard between OS and Neovim.
---  Schedule the setting after `UiEnter` because it can increase startup-time.
---  Remove this option if you want your OS clipboard to remain independent.
---  See `:help 'clipboard'`
 vim.schedule(function()
   vim.opt.clipboard = 'unnamedplus'
 end)
@@ -32,10 +29,20 @@ vim.opt.tabstop = 2       -- A tab is represented as 2 spaces
 vim.opt.shiftwidth = 2    -- Indent using 2 spaces
 vim.opt.softtabstop = 2   -- Insert/delete 2 spaces when pressing Tab/Backspace
 
+-- Ignore case - allow calling :lazy instead of reuiring :Lazy (note the uppercase L)
+vim.opt.ignorecase = true
 
+-- Enable more colors
+vim.opt.termguicolors = true
 
+-- allow selecting empty spaces in visual block mode
+vim.opt.virtualedit = "block"
 
+-- disable line wrapping
+vim.opt.wrap = false
 
+-- when replacing show an extra preview window
+vim.opt.inccommand = "split"
 
 
 
