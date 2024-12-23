@@ -26,7 +26,11 @@ vim.opt.undofile = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
-
+-- TABS & Indent
+vim.opt.expandtab = true  -- Convert tabs to spaces
+vim.opt.tabstop = 2       -- A tab is represented as 2 spaces
+vim.opt.shiftwidth = 2    -- Indent using 2 spaces
+vim.opt.softtabstop = 2   -- Insert/delete 2 spaces when pressing Tab/Backspace
 
 
 
