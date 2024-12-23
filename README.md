@@ -17,7 +17,7 @@
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - adds git status indicators alongside the linenumbers
 
 ### LSP
-TODO
+- [treesitter](https://github.com/lewis6991/gitsigns.nvim) - adds highlightinh, indenting and folding capabilities 
 
 ### AI
 TODO
