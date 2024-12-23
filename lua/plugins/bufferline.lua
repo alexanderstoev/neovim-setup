@@ -19,8 +19,13 @@ return {
 						text_align = "left",
 					},
 				},
-			}
-		})
-	end;
+        custom_filter = function(buf_number, buf_numbers)
+          -- Filter out "No Name" buffers
+          local buf_name = vim.fn.bufname(buf_number)
+          return not (buf_name == "" or buf_name == "[No Name]")
+        end,
+      }
+    })
+  end;
 
 }
