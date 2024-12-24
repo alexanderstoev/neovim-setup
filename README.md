@@ -8,6 +8,7 @@
 - [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim) - file explorer
 - [which-key](https://github.com/folke/which-key.nvim) - shows available keys maps
 - [snaks](https://github.com/folke/snacks.nvim) - A collection of small QoL plugins for Neovim
+- [noice](https://github.com/folke/noice.nvim) - Replaces the UI for `messages`, `cmdline` and the `popupmenu`
 
 ### Search
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) - fuzzy finder _suggesting_ to install ripgrep to be able to limit the number of files indexed
@@ -40,3 +41,8 @@ TODO
 
 ### Quit
 - `<leader>qq` - Quit nvim
+
+### Noice
+- `<leader>mh` - Message History
+- `<leader>ml` - Message Last
+

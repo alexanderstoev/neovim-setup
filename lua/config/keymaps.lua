@@ -26,4 +26,6 @@ vim.api.nvim_set_keymap('n', '<leader>qq', ':qa<CR>', { desc = "[Q]uit all", nor
 -- Lazy 
 vim.api.nvim_set_keymap('n', '<leader>L', ':Lazy<CR>', { desc = "[L]azy", noremap = true, silent = true })
 
-
+-- Noice
+vim.keymap.set("n", "<leader>mh", "<cmd>Noice history<CR>", { desc = "[M]essage [H]istory", noremap = true, silent = true })
+vim.keymap.set("n", "<leader>ml", "<cmd>Noice last<CR>", { desc = "[M]essage [L]ast", noremap = true, silent = true })
