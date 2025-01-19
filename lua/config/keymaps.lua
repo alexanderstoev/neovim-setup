@@ -19,6 +19,7 @@ vim.keymap.set("i", "<A-k>", "<esc><cmd>m .-2<cr>==gi", { desc = "Move Up" })
 vim.keymap.set("v", "<A-j>", ":<C-u>execute \"'<,'>move '>+\" . v:count1<cr>gv=gv", { desc = "Move Down" })
 vim.keymap.set("v", "<A-k>", ":<C-u>execute \"'<,'>move '<-\" . (v:count1 + 1)<cr>gv=gv", { desc = "Move Up" })
 
+-- SNAKS
 vim.keymap.set("n", "<leader>bd", function()
   Snacks.bufdelete()
 end, { desc = "Delete Buffer" })
@@ -27,7 +28,6 @@ vim.keymap.set("n", "<leader>bo", function()
   Snacks.bufdelete.other()
 end, { desc = "Delete Other Buffers" })
 
--- SNAKS
 vim.keymap.set("n", "<leader>n", function() Snacks.notifier.show_history() end, {desc = "Notification History"})
 
 
